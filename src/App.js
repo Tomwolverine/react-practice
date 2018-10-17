@@ -4,13 +4,12 @@ import './App.css';
 
 class App extends Component {
   render() {
+    var helloWorld = 'Welcome to the Road to learn React'
+    var logoReact = 'Cool Beans'
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          
-          
-        </header>
+        <h2>{helloWorld}</h2>
+        <h1>{logoReact}</h1>
       </div>
     );
   }
